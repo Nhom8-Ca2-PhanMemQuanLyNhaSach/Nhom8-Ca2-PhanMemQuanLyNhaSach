@@ -3,6 +3,8 @@
 /* Created on:     10/27/2018 2:26:11 PM                        */
 /*==============================================================*/
 
+use QLNS
+go
 
 if exists (select 1
    from sys.sysreferences r join sys.sysobjects o on (o.id = r.constid and o.type = 'F')
